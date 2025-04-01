@@ -37,13 +37,22 @@ body {
 
   .info {
     width: 600px;
-    height: 300px;
+    height: 200px;
     background-color: blue;
     border: 3px solid black;
     align-items: right;
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: blue;
+    z-index: 1;
+    margin-top: 67%;
   }
 }
